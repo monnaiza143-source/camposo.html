@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bais City National Science High School</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, #e6f4e6, #cceacc);
+            color: #2e4d2c;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 5px solid #1b5e20;
+        }
+        header img {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #388e3c;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 25px;
+            line-height: 1.8;
+        }
+        h1, h2, h3 {
+            color: #1b5e20;
+        }
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .images img {
+            width: 280px;
+            border: 4px solid #2e7d32;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+        }
+        footer {
+            text-align: center;
+            background-color: #2e7d32;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-top: 5px solid #1b5e20;
+        }
+        .formatted {
+            font-weight: bold;
+            font-style: italic;
+            color: #2e7d32;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #2e7d32;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #388e3c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="School logo.png" alt="Bais City National Science High School Logo" width="150">
+        <h1>Bais City National Science High School</h1>
+        <p><i>Excellence in Science, Character, and Leadership</i></p>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#mission">Mission, Vision & Core Values</a>
+        <a href="#personnel">Personnel</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Our School</h2>
+        <p>
+            <span class="formatted">Bais City National Science High School (BCNSHS)</span> 
+            is a government-run science high school in Bais City, Negros Oriental, established in <b>1996</b>. 
+            It caters to academically talented students with a strong interest in 
+            <u>Science, Technology, Engineering, and Mathematics (STEM)</u>.
+        </p>
+        <p>
+            The school continues to uphold its tradition of academic excellence, leadership, and 
+            character formation, ensuring its graduates are globally competitive and nationally committed.
+        </p>
+    </section>
+
+    <!-- MISSION, VISION & CORE VALUES -->
+    <section id="mission">
+        <h2>Mission, Vision & Core Values</h2>
+        <h3>Mission</h3>
+        <p>
+            To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where:
+            Students learn in a child-friendly, gender-sensitive, safe, and motivating environment.
+            Teachers facilitate learning and constantly nurture every learner.
+            Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen.
+            Family, community, and other stakeholders are actively engaged and share responsibility for developing life-long learners.
+        </p>
+        <h3>Vision</h3>
+        <p>
+            We dream of Filipinos who passionately love their country and whose values and competencies enable them to realize their full potential and contribute meaningfully to building the nation.
+            As a learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.
+        </p>
+        <h3>Core Values</h3>
+            <li>Maka-Diyos</li>
+            <li>Maka-tao</li>
+            <li>Makakalikasan</li>
+            <li>Makabansa</li>
+    </section>
+
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: "Roboto", sans-serif;
+      background: linear-gradient(to bottom, #e6f4e6, #cceacc);
+      color: #2e4d2c;
+      margin: 0;
+      padding: 0;
+      line-height: 1.7;
+    }
+
+    /* HEADER */
+    header {
+      background:
+        linear-gradient(rgba(0, 100, 0, 0.7), rgba(0, 50, 0, 0.7)),
+        url('header.bg.jpg') center/cover no-repeat, rgba(46,125,50,0.92);
+      background-blend-mode: multiply;
+      color: white;
+      position: relative;
+      text-align: center;
+      padding: 80px 20px;
+      border-bottom: 6px solid #1b5e20;
+    }
+    header img {
+      width: 120px;
+      margin-bottom: 15px;
+    }
+    header h1 {
+      font-family: "Merriweather", serif;
+      font-size: 2.5rem;
+      margin: 10px 0;
+      letter-spacing: 1px;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    }
+    header p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.2rem;
+      font-style: italic;
+      margin: 0;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    /* NAVIGATION */
+    nav {
+      background-color: #388e3c;
+      padding: 14px;
+      text-align: center;
+    }
+    nav a {
+      font-family: "Montserrat", sans-serif;
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffe082;
+    }
+
+    /* CONTENT */
+    section {
+      padding: 40px 10%;
+    }
+    h2 {
+      font-family: "Merriweather", serif;
+      color: #1b5e20;
+      font-size: 1.9rem;
+      margin-bottom: 15px;
+      border-left: 6px solid #388e3c;
+      padding-left: 12px;
+    }
+    h3 {
+      font-family: "Merriweather", serif;
+      color: #2e7d32;
+      font-size: 1.4rem;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+    p, li, td {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      color: #2e4d2c;
+    }
+
+    /* FORMATTED HIGHLIGHT */
+    .formatted {
+      font-weight: bold;
+      font-style: italic;
+      color: #2e7d32;
+    }
+
+    /* IMAGE GALLERY */
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      margin: 25px 0;
+      flex-wrap: wrap;
+    }
+    .images img {
+      width: 280px;
+      border: 4px solid #2e7d32;
+      border-radius: 12px;
+      box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease-in-out;
+    }
+    .images img:hover {
+      transform: scale(1.05);
+    }
+    figcaption {
+      font-family: "Montserrat", sans-serif;
+      font-size: 0.9rem;
+      margin-top: 6px;
+    }
+
+    /* TABLE */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 0.95rem;
+    }
+    th, td {
+      border: 1px solid #2e7d32;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #388e3c;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+    }
+
+    /* CONTACT / LINKS */
+    #contact {
+      text-align: left;
+      padding: 40px 10%;
+      margin: 0;
+    }
+
+    #contact ul {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0;
+    }
+
+    #contact li {
+      margin-bottom: 8px; /* add small spacing */
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      background-color: #66bb6a;
+      color: white;
+      padding: 18px;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 30px;
+      border-top: 6px solid #388e3c;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- PERSONNEL -->
+  <section id="personnel">
+    <h2>School Personnel</h2>
+    <table>
+      <tr>
+        <th>Position</th>
+        <th>Names</th>
+      </tr>
+      <tr>
+        <td>School Principal</td>
+        <td>Mrs. Groselie B. Ragay</td>
+      </tr>
+      <tr>
+        <th colspan="2">Junior High School Advisers</th>
+      </tr>
+      <tr>
+        <td>Teacher I<br>GRADE 7 Darwin Class Adviser</td>
+        <td>Mrs. Amylene A. Babor</td>
+      </tr>
+      <tr>
+        <td>Teacher III<br>GRADE 7 Newton Class Adviser</td>
+        <td>Mr. Carmelo A. Jamito, Jr.</td>
+      </tr>
+      <tr>
+        <td>Teacher II<br>GRADE 8 Aristotle Class Adviser</td>
+        <td>Mrs. Eva Chandrina P. Torregoza</td>
+      </tr>
+      <tr>
+        <td>Teacher I<br>GRADE 8 Mendel Class Adviser</td>
+        <td>Ms. Mary Joy P. Piella</td>
+      </tr>
+      <tr>
+        <td>Teacher III<br>GRADE 9 Dalton Class Adviser</td>
+        <td>Mrs. Joanna Mae Adana-Tosoy</td>
+      </tr>
+      <tr>
+        <td>Teacher I<br>GRADE 9 Thomson Class Adviser</td>
+        <td>Mrs. Avegail C. Sanoy-Obtiar</td>
+      </tr>
+      <tr>
+        <td>Teacher III<br>GRADE 10 Archimedes Class Adviser</td>
+        <td>Mr. John Jay E. Villacampa</td>
+      </tr>
+      <tr>
+        <td>Teacher III<br>GRADE 10 Einstein Class Adviser</td>
+        <td>Mrs. Jagirline M. Yongco</td>
+      </tr>
+      <tr>
+        <th colspan="2">Senior High School Advisers</th>
+      </tr>
+      <tr>
+        <td>Special Science Teacher I<br>GRADE 11 Alcala Class Adviser</td>
+        <td>Ms. Hannah Mae C. Jacosalem</td>
+      </tr>
+      <tr>
+        <td>Teacher III<br>GRADE 11 Gomez Class Adviser</td>
+        <td>Mr. Willy B. Jaluag</td>
+      </tr>
+      <tr>
+        <td>Teacher III<br>GRADE 11 Ramos Class Adviser</td>
+        <td>Mr. John Michael Vincent A. Adriatico</td>
+      </tr>
+      <tr>
+        <td>Special Science Teacher I<br>GRADE 12 Favila Class Adviser</td>
+        <td>Mr. Dave A. Sedigo</td>
+      </tr>
+      <tr>
+        <td>GRADE 12 Vergara Class Adviser</td>
+        <td>Ms. Kristel Rodriguez</td>
+      </tr>
+      <tr>
+        <td>Teacher III<br>GRADE 12 Zara Class Adviser</td>
+        <td>Mrs. Nezan A. Quirit</td>
+      </tr>
+      <tr>
+        <th colspan="2">Subject Teachers</th>
+      </tr>
+      <tr>
+        <td>Master Teacher II/SPS Coordinator<br>Science Teacher</td>
+        <td>Mr. Ronald C. Canillo</td>
+      </tr>
+      <tr>
+        <td>Teacher I/SHS Academic Coordinator<br>Science Teacher<br>Science Lab & Guidance Designate</td>
+        <td>Mrs. Jonna Fe Marie T. Suminguit</td>
+      </tr>
+      <tr>
+        <td>Teacher II<br>ICT Teacher</td>
+        <td>Mr. Eric E. Golez</td>
+      </tr>
+      <tr>
+        <td>Teacher II<br>Math Teacher</td>
+        <td>Mr. Agripino A. Adana</td>
+      </tr>
+      <tr>
+        <td>ICT Teacher</td>
+        <td>Mr. Joe Val B. Cadimas II</td>
+      </tr>
+      <tr>
+        <td>Personal Development Teacher</td>
+        <td>Mrs. Sharon Argonia</td>
+      </tr>
+      <tr>
+        <td>Values Education Teacher</td>
+        <td>Mrs. Nicolie G. Garces</td>
+      </tr>
+      <tr></tr>
+        <th colspan="2">Staffs</th>
+      </tr>
+      <tr>
+        <td>__</td>
+        <td>Ms. Herley Ablay</td>
+      </tr>
+      <tr>
+        <td>School Guard</td></td>
+        <td>Mr. Rex Laquinon</td>
+      </tr>
+      <tr>
+        <td>School Guard</td>
+        <td>Mr. Christian Concepcion</td>
+      </tr>
+      <tr>
+        <td>School Janitor</td>
+        <td>Mr. Jerry Morte</td>
+    </table>
+  </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="images">
+            <figure style="text-align: center;">
+            <img src="BCNSHS Brigada Eskwela1.jpg" alt="BCNSHS Brigada Eskwela" style="width: 250x; height: 180px">
+            <img src="BCNSHS Brigada Eskwela2.jpg" alt="BCNSHS Brigada Eskwela" style="width: 250x; height: 180px">
+            <img src="BCNSHS Brigada Eskwela3.jpg" alt="BCNSHS Brigada Eskwela" style="width: 250x; height: 180px">
+            <figcaption><b>Brigada Eskwela</b></figcaption>
+            <img src="BCNSHS Research Congress1.jpg" alt="BCNSHS Research Congress" style="width: 250x; height: 180px">
+            <img src="BCNSHS Research Congress2.jpg" alt="BCNSHS Research Congress" style="width: 250x; height: 180px">
+            <img src="BCNSHS Research Congress3.jpg" alt="BCNSHS Research Congress" style="width: 250x; height: 180px">
+            <figcaption><b>Research Congress</b></figcaption>
+            <img src="BCNSHS Earthquake Drill1.jpg" alt="BCNSHS Earthquake Drill" style="width: 250x; height: 180px">
+            <img src="BCNSHS Earthquake Drill2.jpg" alt="BCNSHS Earthquake Drill" style="width: 250x; height: 180px">
+            <img src="BCNSHS Earthquake Drill3.jpg" alt="BCNSHS Earthquake Drill" style="width: 250x; height: 180px">
+            <figcaption><b>Earthquake Drill</b></figcaption>
+            <img src="BCNSHS Portfolio Day1.jpg" alt="BCNSHS Portfolio Day" style="width: 250x; height: 180px">
+            <img src="BCNSHS Portfolio Day2.jpg" alt="BCNSHS Portfolio Day" style="width: 250x; height: 180px">
+            <img src="BCNSHS Portfolio Day3.jpg" alt="BCNSHS Portfolio Day" style="width: 250x; height: 180px">
+            <figcaption><b>Portfolio Day</b></figcaption>
+            <img src="BCNSHS SciHi Banda de Marcha1.jpg" alt="BCNSHS SciHi Banda de Marcha" style="width: 250x; height: 180px">
+            <img src="BCNSHS SciHi Banda de Marcha2.jpg" alt="BCNSHS SciHi Banda de Marcha" style="width: 250x; height: 180px">
+            <img src="BCNSHS SciHi Banda de Marcha3.jpg" alt="BCNSHS SciHi Banda de Marcha" style="width: 250x; height: 180px">
+            <figcaption><b>SciHi Banda de Marcha</b></figcaption>
+            <img src="BCNSHS BSP & GSP Joint Investiture1.jpg" alt="BCNSHS BSP & GSP Joint Investiture" style="width: 250x; height: 180px">
+            <img src="BCNSHS BSP & GSP Joint Investiture2.jpg" alt="BCNSHS BSP & GSP Joint Investiture" style="width: 250x; height: 180px">
+            <img src="BCNSHS BSP & GSP Joint Investiture3.jpg" alt="BCNSHS BSP & GSP Joint Investiture" style="width: 250x; height: 180px">
+            <figcaption><b>BSP & GSP Joint Investiture</b></figcaption>
+            <img src="BCNSHS AP Club1.jpg" alt="BCNSHS AP Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS AP Club2.png" alt="BCNSHS AP Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS AP Club3.jpg" alt="BCNSHS AP Club" style="width: 250x; height: 180px">
+            <figcaption><b>AP Club</b></figcaption>
+            <img src="BCNSHS MAPEH Club1.jpg" alt="BCNSHS MAPEH Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS MAPEH Club2.jpg" alt="BCNSHS MAPEH Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS MAPEH Club3.jpg" alt="BCNSHS MAPEH Club" style="width: 250x; height: 180px">
+            <figcaption><b>MAPEH Club</b></figcaption>
+            <img src="BCNSHS MathSci Club1.jpg" alt="BCNSHS MathSci Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS MathSci Club2.png" alt="BCNSHS MathSci Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS MathSci Club3.jpg" alt="BCNSHS MathSci Club" style="width: 250x; height: 180px">
+            <figcaption><b>MathSci Club</b></figcaption>
+            <img src="BCNSHS Filipino Club1.jpg" alt="BCNSHS Filipino Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS Filipino Club2.jpg" alt="BCNSHS Filipino Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS Filipino Club3.jpg" alt="BCNSHS Filipino Club" style="width: 250x; height: 180px">
+            <figcaption><b>Filipino Club</b></figcaption>
+            <img src="BCNSHS English Club1.jpg" alt="BCNSHS English Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS English Club2.jpg" alt="BCNSHS English Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS English Club3.jpg" alt="BCNSHS English Club" style="width: 250x; height: 180px">
+            <figcaption><b>English Club</b></figcaption>
+            <img src="BCNSHS ESP Club1.jpg" alt="BCNSHS ESP Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS ESP Club2.jpg" alt="BCNSHS ESP Club" style="width: 250x; height: 180px">
+            <img src="BCNSHS ESP Club3.jpg" alt="BCNSHS ESP Club" style="width: 250x; height: 180px">
+            <figcaption><b>ESP Club</b></figcaption>
+            </figure>
+
+  <!-- CONTACT / LINKS -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <ul>
+        <li>📍 Location: Laurel Street, Barangay Hangyad, Bais City, Negros Oriental, Philippines, 6206 <br>
+        <li>📧 Email: <a href="mailto:info@bcnscihs.edu.ph">baiscitynationalsciencehs@gmail.com</a> <br>
+        <li>🌐 Facebook: <a href="https://www.facebook.com/BASCIAN" target="_blank">Bais City National Science High School</a>
+        <li>📞 Telephone: (035) 531 6352 <br>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+  <p>© 2025 Bais City National Science High School | All Rights Reserved</p>
+</footer>
+</body>
+</html>
